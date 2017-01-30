@@ -1,0 +1,10 @@
+*.pyc
+*~
+__pycache__
+include
+sabioils.sublime-project
+sabioils.sublime-workspace
+superuser.txt
+bin
+lib
+pip-selfcheck.json
