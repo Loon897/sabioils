@@ -8,3 +8,4 @@ superuser.txt
 bin
 lib
 pip-selfcheck.json
+db.sqlite3
