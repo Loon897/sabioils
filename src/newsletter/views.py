@@ -5,7 +5,7 @@ from django.http import HttpResponse
 
 
 def home(request):
-    return render(request, "base2.html", {})
+    return render(request, "base.html", {})
 
 def carousel(request):
 	return render(request, "carousel.html", {})
@@ -13,3 +13,9 @@ def carousel(request):
 
 def item(request):
 	return render(request, "product_item.html", {})
+
+def index(request):
+	return render(request, "index.html", {})
+
+def contact(request):
+	return render(request, "contact.html", {})

@@ -16,9 +16,12 @@ Including another URLconf
 from django.conf.urls import include, url
 from django.contrib import admin
 from newsletter.views import *
+
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^$', home, name='home'),
     url(r'^item/$', item, name='item'),
-    #url(r'^$', carousel, name='carousel'),
+    url(r'^index/$', index, name='index'),
+    url(r'^contact/$', contact, name='contact'),
+
 ]
